@@ -1,0 +1,114 @@
+ head {
+             box-sizing: border-box;
+            }
+            
+  /* ini Style headernya */
+        header {
+	       background-image: url("");
+               background-repeat: no-repeat;
+               background-position: center;
+               background-size: cover;
+               padding: 100px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;	
+        }
+body{
+	background: url('pb1.jpg');
+	color: #000;
+}
+ nav {
+	background-color:#328da8; 
+	height:50px; 
+	line-height:50px; 
+	position:relative;
+	width:1375px;
+	margin:auto;
+	margin-top:5px;
+      }
+
+nav ul {
+	list-style:none;
+        }
+nav ul li a {
+	float:left; 
+	width:150px; 
+	display:block; 
+	text-align:center; 
+	color:#FFF; 
+	text-decoration:none; 
+	text-transform:uppercase;
+}
+
+nav ul li a:hover {
+	background-color:#2C6CAB; 
+	display:block;
+                  }
+
+nav ul li:hover ul {
+	background-color:#2C6CAB;	
+	display:block;
+}
+nav ul ul {
+	display:none; 
+	list-style:none; 
+	position:absolute; 
+	background-color:#900;
+	left:300px; 
+	top:50px; 
+	width:190px;
+      }
+
+nav ul ul li a {
+	float:none; 
+	display:block; 
+	padding-left:30px; 
+	text-align:left; 
+	width:160px;
+}
+
+nav ul ul li a:hover {
+	color:#900;
+        }
+       
+        
+        nav a
+        {
+            color: white;
+        }
+ 
+        article {
+            float: left;
+            padding: 20px;
+            width:100%;
+            background-color: #fff;
+            height: auto;
+	    
+	    
+            /* hanya untuk contoh saja */
+        }
+ 
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+ 
+        /* Style the footer */
+        footer {
+            background-color: #328da8;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+ 
+        /* Responsive layout - buat 2 kolom/kotak */
+        @media (max-width: 600px) {
+ 
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
