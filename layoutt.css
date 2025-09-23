@@ -4,7 +4,7 @@
             
   /* ini Style headernya */
         header {
-	           background-image: url("bennner.jpg");
+	           background-image: url("beer.jpg");
                background-repeat: no-repeat;
                background-position: center;
                background-size: cover;
@@ -113,5 +113,6 @@ nav ul ul li a:hover {
             }
 
         }
+
 
 
