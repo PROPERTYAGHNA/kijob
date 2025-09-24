@@ -16,6 +16,12 @@
 body{
 	background: url('pb1.jpg');
 	color: #000;
+	 font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
 }
  nav {
 	background-color:#328da8; 
@@ -170,6 +176,7 @@ nav ul ul li a:hover {
     .btn:hover {
       background: #225e5f;
     }
+
 
 
 
